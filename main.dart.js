@@ -13660,7 +13660,7 @@ n.push(r)
 q=new N.oF()
 q.a=C.mr
 q.b="Research"
-q.c=T.ff(H.a([L.cc("Measument of Road Undulations using Low-cost Accelerometer and Machine Learning",A.bz(p,p,b,p,p,p,p,p,o,p,p,a,p,C.q,p,p,!0,p,p,p,p,p,p,p),p),T.d3(p,a,p),L.cc("Use of Machine Learning to Measur the Road Texture",A.bz(p,p,b,p,p,p,p,p,o,p,p,a,p,C.q,p,p,!0,p,p,p,p,p,p,p),p)],s),C.W,C.ap,C.ae)
+q.c=T.ff(H.a([L.cc("Measurement of Road Undulations using Low-cost Accelerometer and Machine Learning",A.bz(p,p,b,p,p,p,p,p,o,p,p,a,p,C.q,p,p,!0,p,p,p,p,p,p,p),p),T.d3(p,a,p),L.cc("Use of Machine Learning to Measure the Road Texture",A.bz(p,p,b,p,p,p,p,p,o,p,p,a,p,C.q,p,p,!0,p,p,p,p,p,p,p),p)],s),C.W,C.ap,C.ae)
 n.push(q)
 return n},
 oF:function oF(){this.c=this.b=this.a=null},
