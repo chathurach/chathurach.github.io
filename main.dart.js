@@ -9028,11 +9028,12 @@ this.b=b},
 Et:function Et(){},
 agL:function(){return new T.q1(new S.Pe(),P.t(t.K,t.oc))},
 Vo:function Vo(a){this.b=a},
-qA:function qA(a,b,c,d){var _=this
+qA:function qA(a,b,c,d,e){var _=this
 _.e=a
 _.dy=b
 _.fx=c
-_.a=d},
+_.y2=d
+_.a=e},
 Pe:function Pe(){},
 Pi:function Pi(){},
 ut:function ut(a){var _=this
@@ -34344,7 +34345,7 @@ n=o.e
 o=o.dy
 r=q.gA9()
 q.a.toString
-return new S.tL(p,p,p,new S.XP(),p,p,p,p,n,C.qS,p,p,C.nq,q.gQf(),o,p,C.z6,s,p,r,p,p,C.hh,!1,!1,!1,!1,q.gQ0(),!0,p,p,p,new N.iI(q,t.By))},
+return new S.tL(p,p,p,new S.XP(),p,p,p,p,n,C.qS,p,p,C.nq,q.gQf(),o,p,C.z6,s,p,r,p,p,C.hh,!1,!1,!1,!1,q.gQ0(),!1,p,p,p,new N.iI(q,t.By))},
 N:function(a,b){var s,r=this.MP(b)
 this.a.toString
 s=this.d
@@ -49435,20 +49436,21 @@ return T.df(H.a([k,o,n,M.bN(T.jX(new Z.oS(m),m,m),p.e,m,j*0.1,m,m,j)],r),C.I,C.b
 G.qv.prototype={
 ao:function(){return new G.EZ(C.k)}}
 G.EZ.prototype={
-N:function(a,b){var s,r,q,p,o,n,m,l=null,k="Lato",j=t.w,i=b.Z(j).f.a.a,h=b.Z(j).f.a.b
-j=K.a6(b)
-s=i*0.03
-r=i*0.06
-q=i*0.5
+N:function(a,b){var s,r,q,p,o,n,m,l,k=null,j="Lato",i=t.w,h=b.Z(i).f.a.a,g=b.Z(i).f.a.b
+i=K.a6(b)
+s=h*0.03
+r=h*0.06
+q=h*0.04
 p=h*0.6
-o=t.p
-j=M.bN(T.df(H.a([L.bc("Graduated with BSc in Engineering",A.aT(l,l,K.a6(b).e,l,l,l,l,l,k,l,l,s,l,l,l,l,!0,l,l,l,l,l,l,l),l),L.bc("Second Class Lower Division in 2014",A.aT(l,l,K.a6(b).e,l,l,l,l,l,k,l,l,s,l,l,l,l,!0,l,l,l,l,l,l,l),l),L.bc("Recently Completed the MSc in",A.aT(l,l,K.a6(b).e,l,l,l,l,l,k,l,l,s,l,l,l,l,!0,l,l,l,l,l,l,l),l),L.bc("Highway and Traffic Engineering",A.aT(l,l,K.a6(b).e,l,l,l,l,l,k,l,l,s,l,l,l,l,!0,l,l,l,l,l,l,l),l),T.bR(l,r,l),new Q.lA(N.w1(s,K.a6(b).d)[1],q,p,K.a6(b).d,K.a6(b).e,l)],o),C.I,C.a0),j.d,l,h,l,l,i)
-n=K.a6(b)
-n=M.bN(T.df(H.a([new Q.lA(N.w1(s,K.a6(b).e)[0],q,p,K.a6(b).e,K.a6(b).d,l),T.bR(l,r,l),L.bc(u.g,A.aT(l,l,K.a6(b).d,l,l,l,l,l,k,l,l,s,l,l,l,l,!0,l,l,l,l,l,l,l),l),L.bc(u.F,A.aT(l,l,K.a6(b).d,l,l,l,l,l,k,l,l,s,l,l,l,l,!0,l,l,l,l,l,l,l),l)],o),C.I,C.a0),n.e,l,h,l,l,i)
+o=g*0.6
+n=t.p
+i=M.bN(T.df(H.a([L.bc("Graduated with BSc in Engineering",A.aT(k,k,K.a6(b).e,k,k,k,k,k,j,k,k,s,k,k,k,k,!0,k,k,k,k,k,k,k),k),L.bc("Second Class Lower Division in 2014",A.aT(k,k,K.a6(b).e,k,k,k,k,k,j,k,k,s,k,k,k,k,!0,k,k,k,k,k,k,k),k),L.bc("Recently Completed the MSc in",A.aT(k,k,K.a6(b).e,k,k,k,k,k,j,k,k,s,k,k,k,k,!0,k,k,k,k,k,k,k),k),L.bc("Highway and Traffic Engineering",A.aT(k,k,K.a6(b).e,k,k,k,k,k,j,k,k,s,k,k,k,k,!0,k,k,k,k,k,k,k),k),T.bR(k,r,k),new Q.lA(N.w1(q,K.a6(b).d)[1],p,o,K.a6(b).d,K.a6(b).e,k)],n),C.I,C.a0),i.d,k,g,k,k,h)
 m=K.a6(b)
-m=M.bN(T.df(H.a([L.bc(u.c,A.aT(l,l,K.a6(b).e,l,l,l,l,l,k,l,l,s,l,l,l,l,!0,l,l,l,l,l,l,l),l),L.bc("in the Road Construction Field",A.aT(l,l,K.a6(b).e,l,l,l,l,l,k,l,l,s,l,l,l,l,!0,l,l,l,l,l,l,l),l),T.bR(l,r,l),new Q.lA(N.w1(s,K.a6(b).d)[2],q,p,K.a6(b).d,K.a6(b).e,l)],o),C.I,C.a0),m.d,l,h,l,l,i)
-p=K.a6(b)
-return T.df(H.a([j,n,m,M.bN(T.jX(new Z.oR(l),l,l),p.e,l,i*0.1,l,l,i)],o),C.I,C.bG)}}
+m=M.bN(T.df(H.a([new Q.lA(N.w1(q,K.a6(b).e)[0],p,o,K.a6(b).e,K.a6(b).d,k),T.bR(k,r,k),L.bc(u.g,A.aT(k,k,K.a6(b).d,k,k,k,k,k,j,k,k,s,k,k,k,k,!0,k,k,k,k,k,k,k),k),L.bc(u.F,A.aT(k,k,K.a6(b).d,k,k,k,k,k,j,k,k,s,k,k,k,k,!0,k,k,k,k,k,k,k),k)],n),C.I,C.a0),m.e,k,g,k,k,h)
+l=K.a6(b)
+l=M.bN(T.df(H.a([L.bc(u.c,A.aT(k,k,K.a6(b).e,k,k,k,k,k,j,k,k,s,k,k,k,k,!0,k,k,k,k,k,k,k),k),L.bc("in the Road Construction Field",A.aT(k,k,K.a6(b).e,k,k,k,k,k,j,k,k,s,k,k,k,k,!0,k,k,k,k,k,k,k),k),T.bR(k,r,k),new Q.lA(N.w1(q,K.a6(b).d)[2],p,o,K.a6(b).d,K.a6(b).e,k)],n),C.I,C.a0),l.d,k,g,k,k,h)
+o=K.a6(b)
+return T.df(H.a([i,m,l,M.bN(T.jX(new Z.oR(k),k,k),o.e,k,h*0.1,k,k,h)],n),C.I,C.bG)}}
 Q.lz.prototype={
 ao:function(){return new Q.IG(null,C.k)}}
 Q.IG.prototype={
@@ -50221,7 +50223,7 @@ q=this.br$
 if(q!=null)for(q=P.ck(q,q.r),r=H.q(q).c;q.p();)r.a(q.d).sdO(0,s)
 this.cA()}}
 F.zs.prototype={
-N:function(a,b){return new S.qA(new F.qO(null),"Portfolio",X.a8o(new P.x(4294901759),null,new P.x(4282036137),new P.x(4281039480),new P.x(4292801265),new P.x(4279706922)),null)}}
+N:function(a,b){return new S.qA(new F.qO(null),"Portfolio",X.a8o(new P.x(4294901759),null,new P.x(4282036137),new P.x(4281039480),new P.x(4292801265),new P.x(4279706922)),!1,null)}}
 F.qO.prototype={
 ao:function(){return new F.uB(C.k)}}
 F.uB.prototype={
