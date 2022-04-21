@@ -2,7 +2,6 @@
 <html>
 <head>
   <!--
-edit
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
 
@@ -40,8 +39,10 @@ edit
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
   <script>
-    var serviceWorkerVersion = '1241342938';
+    var serviceWorkerVersion = '3385488550';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -103,6 +104,29 @@ edit
       // Service workers not supported. Just drop the <script> tag.
       loadMainDartJs();
     }
+  </script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyC-j1GfmWgupUU5-qbNWcqalGwwAHfBXSY",
+      authDomain: "web-portfolio-50bb1.firebaseapp.com",
+      projectId: "web-portfolio-50bb1",
+      storageBucket: "web-portfolio-50bb1.appspot.com",
+      messagingSenderId: "105107535567",
+      appId: "1:105107535567:web:73bf869170b88f4602a9ba",
+      measurementId: "G-KC73865MVK"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
   </script>
 </body>
 </html>
